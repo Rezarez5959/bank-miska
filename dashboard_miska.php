@@ -185,9 +185,9 @@
       <span>🏦</span> Dashboard Bank Miska
     </div>
     <div>
-      <a href="index.html" class="nav-btn">&larr; Menu Utama</a>
-      <a href="tambah_nasabah.php" class="nav-btn" style="margin-left: 8px; background: #dbeafe; color: #1e40af;">➕ Tambah Nasabah</a>
-      <a href="history_keuangan.php" class="nav-btn" style="margin-left: 8px; background: #e0e7ff; color: #3730a3;">📊 History Keuangan</a>
+      <a href="./index.html" class="nav-btn">&larr; Menu Utama</a>
+      <a href="./tambah_nasabah.php" class="nav-btn" style="margin-left: 8px; background: #dbeafe; color: #1e40af;">➕ Tambah Nasabah</a>
+      <a href="./history_keuangan.php" class="nav-btn" style="margin-left: 8px; background: #e0e7ff; color: #3730a3;">📊 History Keuangan</a>
     </div>
   </div>
 
@@ -249,7 +249,7 @@
     <div id="pesan" style="font-size: 0.9rem; font-weight: 600; color: #1e293b;">Status aksi akan muncul di sini.</div>
   </div>
 
-  <script src="miska.js"></script>
+  <script src="./miska.js"></script>
   <script>
     // Penyesuaian helper JS agar tampilan info-nasabah dapat otomatis tampil saat dicari
     const origCari = window.cariNasabah;
