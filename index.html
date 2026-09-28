@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu Utama - Bank Miska</title>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <style>
     :root {
       --primary: #2563eb;
@@ -17,7 +19,7 @@
       --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
       --shadow-hover: 0 20px 30px -10px rgba(37, 99, 235, 0.15);
     }
-    
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -126,9 +128,25 @@
       font-size: 1.5rem;
     }
 
-    .card-1 .icon-wrapper { background: #eff6ff; color: #2563eb; }
-    .card-2 .icon-wrapper { background: #f0fdf4; color: #16a34a; }
-    .card-3 .icon-wrapper { background: #faf5ff; color: #9333ea; }
+    .card-1 .icon-wrapper {
+      background: #eff6ff;
+      color: #2563eb;
+    }
+
+    .card-2 .icon-wrapper {
+      background: #f0fdf4;
+      color: #16a34a;
+    }
+
+    .card-3 .icon-wrapper {
+      background: #faf5ff;
+      color: #9333ea;
+    }
+
+    .card-4 .icon-wrapper {
+      background: #fff7ed;
+      color: #ea580c;
+    }
 
     .menu-card h3 {
       font-size: 1.15rem;
@@ -169,6 +187,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="header-branding">
@@ -213,6 +232,18 @@
         Lihat History <span>&rarr;</span>
       </div>
     </a>
+
+    <!-- Card 4: Tambah Nasabah -->
+    <a href="tambah_nasabah.php" class="menu-card card-4">
+      <div>
+        <div class="icon-wrapper">👤</div>
+        <h3>Tambah Nasabah</h3>
+        <p>Registrasi akun nasabah baru dengan memindai ID Kartu RFID dan mengisi data nasabah.</p>
+      </div>
+      <div class="card-footer">
+        Tambah Nasabah <span>&rarr;</span>
+      </div>
+    </a>
   </div>
 
   <footer>
@@ -220,4 +251,5 @@
   </footer>
 
 </body>
+
 </html>
