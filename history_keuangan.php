@@ -255,7 +255,7 @@ $transaksi_query = mysqli_query($koneksi, $sql);
 
             <div style="display: flex; gap: 8px;">
                 <button type="submit" class="btn-filter">Filter</button>
-                <a href="history_keuangan.php" class="btn-reset">Reset</a>
+                <a href="./history_keuangan.php" class="btn-reset">Reset</a>
             </div>
         </form>
     </div>
@@ -332,10 +332,10 @@ $transaksi_query = mysqli_query($koneksi, $sql);
     </table>
 
     <div class="nav-links">
-        <a href="index.html">&larr; Menu Utama</a> | 
-        <a href="dashboard_miska.php">Dashboard Miska</a> | 
-        <a href="tambah_nasabah.php">Tambah Nasabah</a> | 
-        <a href="dashboard_approval_pinjaman.php">Approval Pinjaman &rarr;</a>
+        <a href="./index.html">&larr; Menu Utama</a> | 
+        <a href="./dashboard_miska.php">Dashboard Miska</a> | 
+        <a href="./tambah_nasabah.php">Tambah Nasabah</a> | 
+        <a href="./dashboard_approval_pinjaman.php">Approval Pinjaman &rarr;</a>
     </div>
 </div>
 

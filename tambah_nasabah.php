@@ -319,10 +319,10 @@ $nasabah_query = mysqli_query($koneksi, "SELECT * FROM tb_akun WHERE role = 'use
       <span>Bank Miska - Registrasi Nasabah</span>
     </div>
     <div class="nav-links">
-      <a href="index.html" class="nav-btn">🏠 Menu Utama</a>
-      <a href="dashboard_miska.php" class="nav-btn">💳 Dashboard Miska</a>
-      <a href="dashboard_approval_pinjaman.php" class="nav-btn">📑 Approval Pinjaman</a>
-      <a href="history_keuangan.php" class="nav-btn">📊 History Keuangan</a>
+      <a href="./index.html" class="nav-btn">🏠 Menu Utama</a>
+      <a href="./dashboard_miska.php" class="nav-btn">💳 Dashboard Miska</a>
+      <a href="./dashboard_approval_pinjaman.php" class="nav-btn">📑 Approval Pinjaman</a>
+      <a href="./history_keuangan.php" class="nav-btn">📊 History Keuangan</a>
     </div>
   </div>
 

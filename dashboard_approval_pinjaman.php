@@ -165,10 +165,10 @@ $query = mysqli_query($koneksi, "
       📑 Approval Pinjaman
     </div>
     <div>
-      <a href="index.html" class="nav-btn">&larr; Menu Utama</a>
-      <a href="dashboard_miska.php" class="nav-btn" style="margin-left: 8px;">💳 Dashboard Miska</a>
-      <a href="tambah_nasabah.php" class="nav-btn" style="margin-left: 8px; background: #dbeafe; color: #1e40af;">➕ Tambah Nasabah</a>
-      <a href="history_keuangan.php" class="nav-btn" style="margin-left: 8px; background: #e0e7ff; color: #3730a3;">📊 History Keuangan</a>
+      <a href="./index.html" class="nav-btn">&larr; Menu Utama</a>
+      <a href="./dashboard_miska.php" class="nav-btn" style="margin-left: 8px;">💳 Dashboard Miska</a>
+      <a href="./tambah_nasabah.php" class="nav-btn" style="margin-left: 8px; background: #dbeafe; color: #1e40af;">➕ Tambah Nasabah</a>
+      <a href="./history_keuangan.php" class="nav-btn" style="margin-left: 8px; background: #e0e7ff; color: #3730a3;">📊 History Keuangan</a>
     </div>
   </div>
 
