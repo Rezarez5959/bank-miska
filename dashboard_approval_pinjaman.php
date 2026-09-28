@@ -165,7 +165,7 @@ $query = mysqli_query($koneksi, "
       📑 Approval Pinjaman
     </div>
     <div>
-      <a href="menu.html" class="nav-btn">&larr; Menu Utama</a>
+      <a href="index.html" class="nav-btn">&larr; Menu Utama</a>
       <a href="dashboard_miska.php" class="nav-btn" style="margin-left: 8px;">💳 Dashboard Miska</a>
     </div>
   </div>
